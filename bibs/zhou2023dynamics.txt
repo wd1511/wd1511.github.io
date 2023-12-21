@@ -1,0 +1,6 @@
+@article{zhou2023dynamics,
+  title={On the Dynamics Under the Unhinged Loss and Beyond},
+  author={Zhou, Xiong and Liu, Xianming and Wang, Hanzhang and Zhai, Deming and Jiang, Junjun and Ji, Xiangyang},
+  journal={arXiv preprint arXiv:2312.07841},
+  year={2023}
+}
