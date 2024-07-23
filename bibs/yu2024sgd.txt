@@ -1,0 +1,6 @@
+@article{yu2024sgd,
+  title={SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior},
+  author={Yu, Zhongrui and Wang, Haoran and Yang, Jinze and Wang, Hanzhang and Xie, Zeke and Cai, Yunfeng and Cao, Jiale and Ji, Zhong and Sun, Mingming},
+  journal={arXiv preprint arXiv:2403.20079},
+  year={2024}
+}
