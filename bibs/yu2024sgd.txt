@@ -1,6 +1,8 @@
-@article{yu2024sgd,
-  title={SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior},
-  author={Yu, Zhongrui and Wang, Haoran and Yang, Jinze and Wang, Hanzhang and Xie, Zeke and Cai, Yunfeng and Cao, Jiale and Ji, Zhong and Sun, Mingming},
-  journal={arXiv preprint arXiv:2403.20079},
-  year={2024}
+@InProceedings{Yu_2025_WACV,
+    author    = {Yu, Zhongrui and Wang, Haoran and Yang, Jinze and Wang, Hanzhang and Cao, Jiale and Ji, Zhong and Sun, Mingming},
+    title     = {SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {3812-3822}
 }
