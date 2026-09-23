@@ -1,7 +1,8 @@
 @inproceedings{wang2025sega,
-  title={Sega: A stepwise evolution paradigm for content-aware layout generation with design prior},
+  title={{SEGA}: A Stepwise Evolution Paradigm for Content-Aware Layout Generation with Design Prior},
   author={Wang, Haoran and Zhao, Bo and Wang, Jinghui and Wang, Hanzhang and Yang, Huan and Ji, Wei and Liu, Hao and Xiao, Xinyan},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   pages={19321--19330},
-  year={2025}
+  year={2025},
+  url={https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_SEGA_A_Stepwise_Evolution_Paradigm_for_Content-Aware_Layout_Generation_with_ICCV_2025_paper.pdf}
 }

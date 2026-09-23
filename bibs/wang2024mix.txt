@@ -1,6 +1,9 @@
 @article{wang2024mix,
-  title={Mix-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Global Stochastic Offset},
+  title={{Mix-DDPM}: Enhancing Diffusion Models through Fitting Mixture Noise with Global Stochastic Offset},
   author={Wang, Hanzhang and Zhai, Deming and Zhou, Xiong and Jiang, Junjun and Liu, Xianming},
   journal={ACM Transactions on Multimedia Computing, Communications and Applications},
-  publisher={ACM New York, NY}
+  publisher={ACM New York, NY},
+  year={2024},
+  doi={10.1145/3672080},
+  url={https://doi.org/10.1145/3672080}
 }

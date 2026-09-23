@@ -1,6 +1,10 @@
 @article{zhou2023dynamics,
   title={On the Dynamics Under the Unhinged Loss and Beyond},
   author={Zhou, Xiong and Liu, Xianming and Wang, Hanzhang and Zhai, Deming and Jiang, Junjun and Ji, Xiangyang},
-  journal={arXiv preprint arXiv:2312.07841},
-  year={2023}
+  journal={Journal of Machine Learning Research},
+  volume={24},
+  number={376},
+  pages={1--62},
+  year={2023},
+  url={https://jmlr.org/papers/v24/23-0771.html}
 }
