@@ -1,120 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9fb">
+  <meta name="description" content="Hanzhang Wang, PhD in Computer Science. Research, publications, and experiences.">
+  <title>Hanzhang Wang's Homepage</title>
+  <link rel="stylesheet" href="css/home.css">
+  <script src="js/photos.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Hanzhang Wang, back to top">HW<span aria-hidden="true">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#sect-publications">Publications</a>
+        <a href="#sect-experiences">Experiences</a>
+        <a href="#sect-research">Research</a>
+        <a href="#sect-awards">Awards</a>
+      </nav>
+    </div>
+  </header>
 
-<html><head>
-	<title>Hanzhang Wang's Homepage</title>
-	<style type="text/css">
-	body {
-		margin-top: 30px;
-		margin-bottom: 30px;
-		margin-left: 100px;
-		margin-right: 100px;
-	}
-	p {
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-	
-	.caption {
-		font-size: 34px;
-		font-weight: normal;
-		color: #000;
-		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	}
-	.caption-1 {
-		font-size: 16px;
-		font-family: Tahoma, Geneva, sans-serif;
-	}
-	.caption-2 {
-		font-size: 16px;
-		font-family: Tahoma, Geneva, sans-serif;
-		font-weight: bold;
-		color: #234A8C;
-	}
-	.caption-3 {
-		font-size: 16px;
-		font-family: Tahoma, Geneva, sans-serif;
-		font-weight: bold;
-		color: #F00;
-	}
-	
-	.caption-4 {
-		font-size: 16px;
-		font-family: Tahoma, Geneva, sans-serif;
-		color: #234A8C;
-	}
-	.content {
-		font-size: 16px;
-		font-family: Tahoma, Geneva, sans-serif;
-		text-align: justify;
-	}
-	.content a {
-		font-size: 16px;
-		font-family: Tahoma, Geneva, sans-serif;
-		color: #000;
-	}
-	.content strong a {
-		font-size: 16px;
-		font-family: Tahoma, Geneva, sans-serif;
-		color: #234A8C;
-	}
-	.title-small {
-		font-size: 20px;
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-weight: bold;
-		color: #F90;
-	}
-	.title-large {
-		font-size: 28px;
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-weight: bold;
-		color: #000;
-	}
-	.margin {
-		font-size: 10px;
-		line-height: 10px;
-	}
-	.margin-small {
-		font-size: 5px;
-		line-height: 5px;
-	}
-	.margin-large {
-		font-size: 16px;
-		line-height: 16px;
-	}
-	a:link {
-		text-decoration: none;
-	}
-	a:visited {
-		text-decoration: none;
-	}
-	content a:link {
-		text-decoration: none;
-	}
-	content a:visited {
-		text-decoration: none;
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-	a:active {
-		text-decoration: underline;
-		color: #000000;
-		font-family: Tahoma, Geneva, sans-serif;
-	}
-	strong a:active {
-		text-decoration: underline;
-		color: #000000;
-	}
-	img
-	{
-	 border-color: black;
-	}
-	
-	
-	</style>
-	<meta http-equiv="Content-Type" content="text/html; charset=gbk">
-	</head>
-	
-	<script>
+  <main id="main" class="page-shell">
+    <section class="hero" aria-labelledby="profile-name">
+      <div class="profile">
+        <p class="eyebrow">PhD in Computer Science</p>
+        <h1 id="profile-name">Hanzhang Wang<span class="name-period" aria-hidden="true">.</span></h1>
+        <div class="affiliation">
+          <p>Infrastructure Cloud Services Product Department</p>
+          <p>ICT BG, Huawei</p>
+        </div>
+        <p class="email"><span>Email</span>: <a href="mailto:cs_hzwang@163.com">cs_hzwang@163.com</a></p>
+        <div class="profile-links" aria-label="Academic profiles">
+          <!-- Restore CV and Research Statement links when their PDF files are available in papers/. -->
+          <a class="button primary" href="https://scholar.google.com.hk/citations?user=uEW9RdcAAAAJ&amp;hl=zh-CN">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a class="button" href="https://github.com/wd1511/">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#sect-publications">Papers <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="portrait-gallery" role="group" aria-label="Photos of Hanzhang Wang">
+        <a class="portrait" id="portrait-link" href="imgs/graduation-edited.jpg" aria-label="View graduation photo of Hanzhang Wang">
+          <img id="profile-photo" src="imgs/graduation-edited.jpg" width="1086" height="1448" alt="Hanzhang Wang in his graduation gown on campus" fetchpriority="high">
+        </a>
+        <div class="photo-controls" aria-label="Choose a photo" hidden>
+          <button type="button" aria-label="Show graduation photo" aria-pressed="true" aria-controls="profile-photo" data-src="imgs/graduation-edited.jpg" data-alt="Hanzhang Wang in his graduation gown on campus" data-view-label="View graduation photo of Hanzhang Wang"><span></span></button>
+          <button type="button" aria-label="Show casual photo" aria-pressed="false" aria-controls="profile-photo" data-src="imgs/casual-edited.jpg" data-alt="Hanzhang Wang wearing a cap and carrying a camera" data-view-label="View casual photo of Hanzhang Wang"><span></span></button>
+          <button type="button" aria-label="Show original portrait" aria-pressed="false" aria-controls="profile-photo" data-src="imgs/me.jpg" data-alt="Hanzhang Wang; China" data-view-label="View portrait of Hanzhang Wang"><span></span></button>
+        </div>
+        <p class="sr-only" id="photo-status" role="status"></p>
+      </div>
+    </section>
+
+    <div class="biography"><p>I am currently a senior engineer in the Infrastructure Cloud Services Product Department, ICT BG, Huawei. I obtained my PhD degree from Harbin Institute of Technology, advised by Prof. Wen Gao. I obtained my B.E. from Harbin Institute of Technology. My current work focuses on AI infrastructure and exploratory research into vision-language-action (VLA) models, end-to-end autonomous driving, and world models for autonomous driving and embodied AI.</p></div>
+
+    <section id="sect-publications" class="content-section" aria-labelledby="publications-heading">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">01</span><h2 id="publications-heading">Publications</h2><span class="section-rule" aria-hidden="true"></span></div>
+      <div class="publications-list">
+        <article class="publication">
+          <div class="publication-meta"><span class="venue-tag">ICCV</span><span class="publication-year">2025</span></div>
+          <div class="publication-body">
+            <h3>SEGA: A Stepwise Evolution Paradigm for Content-Aware Layout Generation with Design Prior</h3>
+            <p class="authors"><a href="https://scholar.google.com/citations?hl=zh-CN&user=xfnL2IEAAAAJ">Haoran Wang</a>, Bo Zhao, Jinghui Wang, <a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, Huan Yang, Wei Ji, Hao Liu, Xinyan Xiao</p>
+            <p class="venue">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2025.</p>
+            <div class="paper-links" aria-label="Resources for SEGA: A Stepwise Evolution Paradigm for Content-Aware Layout Generation with Design Prior">
+              <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_SEGA_A_Stepwise_Evolution_Paradigm_for_Content-Aware_Layout_Generation_with_ICCV_2025_paper.pdf">Paper</a>
+              <a href="https://brucew91.github.io/SEGA.github.io/">Project</a>
+              <a href="https://github.com/BruceW91/SEGA">Code</a>
+              <a href="https://huggingface.co/datasets/BruceW91/GenPoster-100K">Hugging Face</a>
+              <a href="./bibs/wang2025sega.txt">BibTex</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="publication-meta"><span class="venue-tag">ToMM</span><span class="publication-year">2025</span></div>
+          <div class="publication-body">
+            <h3>FAST: Flexibly Controllable Arbitrary Style Transfer via Latent Diffusion models</h3>
+            <p class="authors"><a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=xfnL2IEAAAAJ">Haoran Wang</a>, Zhongrui Yu, <a href="https://scholar.google.com/citations?hl=zh-CN&user=_PfM-AUAAAAJ">Mingming Sun</a>, <a href="http://homepage.hit.edu.cn/jiangjunjun">Junjun Jiang</a>, <a href="http://homepage.hit.edu.cn/xmliu">Xianming Liu</a>, <a href="http://homepage.hit.edu.cn/zhaideming">Deming Zhai</a></p>
+            <p class="venue">ACM Transactions on Multimedia Computing, Communications and Applications (ToMM), 2025.</p>
+            <div class="paper-links" aria-label="Resources for FAST: Flexibly Controllable Arbitrary Style Transfer via Latent Diffusion models">
+              <a href="https://dl.acm.org/doi/full/10.1145/3748655">Paper</a>
+              <a href="https://fast-ldm.github.io">Project</a>
+              <a href="https://github.com/wd1511/FAST">Code</a>
+              <a href="https://huggingface.co/wd1511/fast-ldm">Hugging Face</a>
+              <a href="./bibs/wang2024hicast.txt">BibTex</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="publication-meta"><span class="venue-tag">WACV</span><span class="publication-year">2025</span></div>
+          <div class="publication-body">
+            <h3>SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior</h3>
+            <p class="authors">Zhongrui Yu, <a href="https://scholar.google.com/citations?hl=zh-CN&user=xfnL2IEAAAAJ">Haoran Wang</a>, Jinze Yang, <a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, Jiale Cao, Zhong Ji, <a href="https://scholar.google.com/citations?hl=zh-CN&user=_PfM-AUAAAAJ">Mingming Sun</a></p>
+            <p class="venue">IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025.</p>
+            <div class="paper-links" aria-label="Resources for SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior">
+              <a href="https://openaccess.thecvf.com/content/WACV2025/papers/Yu_SGD_Street_View_Synthesis_with_Gaussian_Splatting_and_Diffusion_Prior_WACV_2025_paper.pdf">Paper</a>
+              <a href="https://arxiv.org/abs/2403.20079">arXiv</a>
+              <a href="./bibs/yu2025sgd.txt">BibTex</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="publication-meta"><span class="venue-tag">ToMM</span><span class="publication-year">2024</span></div>
+          <div class="publication-body">
+            <h3>Mix-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Global Stochastic Offset</h3>
+            <p class="authors"><a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, <a href="http://homepage.hit.edu.cn/zhaideming">Deming Zhai</a>, <a href="https://hitcszx.github.io">Xiong Zhou</a>, <a href="http://homepage.hit.edu.cn/jiangjunjun">Junjun Jiang</a>, <a href="http://homepage.hit.edu.cn/xmliu">Xianming Liu</a></p>
+            <p class="venue">ACM Transactions on Multimedia Computing, Communications and Applications (ToMM), 2024.</p>
+            <div class="paper-links" aria-label="Resources for Mix-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Global Stochastic Offset">
+              <a href="https://dl.acm.org/doi/abs/10.1145/3672080">Paper</a>
+              <a href="https://github.com/wd1511/Mix-DDPM">Code</a>
+              <a href="./bibs/wang2024mix.txt">BibTex</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="publication-meta"><span class="venue-tag">JMLR</span><span class="publication-year">2023</span></div>
+          <div class="publication-body">
+            <h3>On the Dynamics Under the Unhinged Loss and Beyond</h3>
+            <p class="authors"><a href="https://hitcszx.github.io">Xiong Zhou</a>, <a href="http://homepage.hit.edu.cn/xmliu">Xianming Liu</a>, <a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, <a href="http://homepage.hit.edu.cn/zhaideming">Deming Zhai</a>, <a href="http://homepage.hit.edu.cn/jiangjunjun">Junjun Jiang</a>, <a href="https://www.au.tsinghua.edu.cn/info/1111/1524.htm">Xiangyang Ji</a></p>
+            <p class="venue">Journal of Machine Learning Research (JMLR), 2023.</p>
+            <div class="paper-links" aria-label="Resources for On the Dynamics Under the Unhinged Loss and Beyond">
+              <a href="https://jmlr.org/papers/v24/23-0771.html">Paper</a>
+              <a href="https://arxiv.org/abs/2312.07841">arXiv</a>
+              <a href="./bibs/zhou2023dynamics.txt">BibTex</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="publication-meta"><span class="venue-tag">TIP</span><span class="publication-year">2023</span></div>
+          <div class="publication-body">
+            <h3>Unsupervised Deep Exemplar Colorization via Pyramid Dual Non-local Attention</h3>
+            <p class="authors"><a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, <a href="http://homepage.hit.edu.cn/zhaideming">Deming Zhai</a>, <a href="http://homepage.hit.edu.cn/xmliu">Xianming Liu</a>, <a href="http://homepage.hit.edu.cn/jiangjunjun">Junjun Jiang</a>, <a href="http://homepage.hit.edu.cn/gaowen">Wen Gao</a></p>
+            <p class="venue">IEEE Transactions on Image Processing (TIP), 2023.</p>
+            <div class="paper-links" aria-label="Resources for Unsupervised Deep Exemplar Colorization via Pyramid Dual Non-local Attention">
+              <a href="https://ieeexplore.ieee.org/abstract/document/10183846">Paper</a>
+              <a href="https://github.com/wd1511/PDNLA-Net">Code</a>
+              <a href="./bibs/wang2023pdnla.txt">BibTex</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="sect-experiences" class="content-section" aria-labelledby="experiences-heading">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">02</span><h2 id="experiences-heading">Experiences</h2><span class="section-rule" aria-hidden="true"></span></div>
+      <div class="timeline">
+        <article class="experience">
+          <div class="experience-heading"><h3>Senior Engineer</h3><p class="date">Oct. 2025 - Now</p></div>
+          <p class="organization"><a href="https://www.huawei.com/en/">Huawei</a> : Shanghai, China</p>
+          <p>Infrastructure Cloud Services Product Department, ICT BG</p><p>Research : AI Infrastructure; Exploratory Research on VLA Models, End-to-End Autonomous Driving, and World Models for Autonomous Driving and Embodied AI</p>
+        </article>
+        <article class="experience">
+          <div class="experience-heading"><h3>Student Researcher</h3><p class="date">Sep. 2023 - Nov. 2024</p></div>
+          <p class="organization"><a href="http://research.baidu.com">Baidu Research</a> : Beijing, China</p>
+          <p>Research : Diffusion Model, Image-to-Image Translation, MLLM</p>
+        </article>
+        <article class="experience">
+          <div class="experience-heading"><h3>Student Researcher</h3><p class="date">Sep. 2020 - Dec. 2022</p></div>
+          <p class="organization"><a href="https://www.pcl.ac.cn">Peng Cheng Laboratory</a> : Shenzhen, Guangdong, China</p>
+          <p>Research : Image Colorization, Computational Imaging</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sect-research" class="content-section" aria-labelledby="research-heading">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">03</span><h2 id="research-heading">Research</h2><span class="section-rule" aria-hidden="true"></span></div>
+      <ul class="research-grid">
+          <li><h3>Image-to-Image Translation<span class="sr-only"> :</span></h3><p>Image Colorization, Image Inpainting, Style Transfer.</p></li>
+          <li><h3>Diffusion Models<span class="sr-only"> :</span></h3><p>Text-to-Image Generation/Editing, Text-to-Video Generation/Editing.</p></li>
+          <li><h3>World Models<span class="sr-only"> :</span></h3><p>Autonomous Driving, Embodied AI.</p></li>
+          <li><h3>LLMs &amp; MLLMs<span class="sr-only"> :</span></h3><p>Pre-training, Reinforcement Learning, Domain-Specific Tasks.</p></li>
+          <li><h3>Autonomous Driving<span class="sr-only"> :</span></h3><p>Vision-Language-Action (VLA) Models, End-to-End Driving.</p></li>
+          <li><h3>World Models<span class="sr-only"> :</span></h3><p>Autonomous Driving, Embodied AI.</p></li>
+          <li><h3>AI Infra<span class="sr-only"> :</span></h3><p>Operator Development, Model Adaptation.</p></li>
+      </ul>
+    </section>
+
+    <section id="sect-awards" class="content-section" aria-labelledby="awards-heading">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">04</span><h2 id="awards-heading">Awards</h2><span class="section-rule" aria-hidden="true"></span></div>
+      <ul class="awards-list">
+          <li><span class="award-year">2014</span><p>The first prize in the 31st Chinese Physics Olympiad (CPhO).</p></li>
+          <li><span class="award-year">2018</span><p>The third prize in the 11th National College Student Information Security Contest.</p></li>
+          <li><span class="award-year">2019</span><p>The outstanding undergraduate graduates of Harbin Institute of Technology.</p></li>
+          <li><span class="award-year">2023</span><p>Outstanding Intern at Baidu Research.</p></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner"><a class="footer-name" href="#top">Hanzhang Wang</a><a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
+    <div class="visitor-globe"><script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=h87tkcVTteUC8QVeZ_wn1pK4-aVDcUQQqwJEgnZyQBI"></script></div>
+  </footer>
+
+  <!-- Existing analytics integrations are retained. -->
+  <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -124,252 +204,19 @@
 	  ga('send', 'pageview');
 	
 	</script>
-	
-	<body>
-	
-	<table border="0" width="100%">
-	  <tbody>
-	
-		<tr>
-	
-		<td width="300"><table>
-				<tr><td>
-				<a href="imgs/me.jpg"><img src="imgs/me.jpg"  height="270" alt="Hanzhang Wang; China" border=1></a></td></tr>
-				</table></td>
-		<td width="15"></td>
-		<td></td>
-		<td><table border="0" width="100%">
-		  <tbody><tr height="20">
-			<td colspan="2"></td></tr>
-	   <tr height="60">
-			<td>
-				<p class="caption">Hanzhang Wang<br><br></p>
-				<p class="content">PhD in Computer Science</p>
-				<p class="content">Infrastructure Cloud Services Product Department</p>
-				<p class="content">ICT BG, Huawei</p>
-				<p class="content"><strong>Email</strong>: cs_hzwang@163.com</p>
-			</td>
-		  </tr>
-	
-	
-	
-		  <tr height="40">
-			<td>
-			  <p class="margin">&nbsp;</p>
-			  <p class="content">
-				  <!-- Restore CV and Research Statement links when their PDF files are available in papers/. -->
-				  <strong><a href="https://scholar.google.com.hk/citations?user=uEW9RdcAAAAJ&amp;hl=zh-CN">Google Scholar</a></strong> |
-				  <strong><a href="https://github.com/wd1511/">GitHub</a></strong> |
-				  <strong><a href="#sect-publications">Papers</a></strong></p>
-				  <!-- <strong><a href="pdf/thesis_highres.pdf">Thesis</a></strong> | -->
-				  <!-- <strong><a href="#sect-teaching">Teaching</a></strong></p> -->
-			<!-- <p class="content"><strong>
-				<a href="#sect-software">Software</a></strong> |
-				<strong><a href="#sect-publications">Papers</a></strong> |
-				<strong><a href="#sect-talks">Talks</a></strong> |
-				<strong><a href="#sect-awards">Awards</a></strong> |
-				<strong><a href="https://arxiv.org/a/zhu_j_5.html">Arxiv</a></strong>
-			</p> -->
-			</td>
-		  </tr>
-		  <tr height="20">
-			<td colspan="2"></td></tr>
-		</tbody></table></td>
-	  </tr>
-	</tbody></table>
-	<p class="margin">&nbsp;</p>
-	
-	<table border="0" >
-	  <tbody>
-		<tr>
-		  <td width="900"> <p align="justify" class="content">I am currently a senior engineer in the Infrastructure Cloud Services Product Department, ICT BG, Huawei. I obtained my PhD degree from Harbin Institute of Technology, advised by Prof. Wen Gao. I obtained my B.E. from Harbin Institute of Technology. My current work focuses on AI infrastructure and exploratory research into vision-language-action (VLA) models, end-to-end autonomous driving, and world models for autonomous driving and embodied AI.</p>
-		  </tr>
-	  </tbody>
-	</table>
-	
-	<br>
-	<br>
-	
-	
-	<p id="sect-publications" class="title-large">Publications</p>
-
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong>SEGA: A Stepwise Evolution Paradigm for Content-Aware Layout Generation with Design Prior</strong></p>
-			<p class="content"><a href="https://scholar.google.com/citations?hl=zh-CN&user=xfnL2IEAAAAJ">Haoran Wang</a>, Bo Zhao, Jinghui Wang, <a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, Huan Yang, Wei Ji, Hao Liu, Xinyan Xiao
-			</p>
-			<p class="content"> Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2025.</p>
-				<p class="margin-small">&nbsp;</p>
-			<p class="content">
-				<strong><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_SEGA_A_Stepwise_Evolution_Paradigm_for_Content-Aware_Layout_Generation_with_ICCV_2025_paper.pdf">Paper</a></strong> |
-					<strong><a href="https://brucew91.github.io/SEGA.github.io/">Project</a></strong> |
-					<strong><a href="https://github.com/BruceW91/SEGA">Code</a></strong> |
-					<strong><a href="https://huggingface.co/datasets/BruceW91/GenPoster-100K">Hugging Face</a></strong> |
-					<strong><a href="./bibs/wang2025sega.txt">BibTex</a></strong>
-				<br> </p>  
-		</tr></tbody>
-	</table>
-
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong>FAST: Flexibly Controllable Arbitrary Style Transfer via Latent Diffusion models</strong></p>
-			<p class="content"><a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=xfnL2IEAAAAJ">Haoran Wang</a>, Zhongrui Yu, <a href="https://scholar.google.com/citations?hl=zh-CN&user=_PfM-AUAAAAJ">Mingming Sun</a>, <a href="http://homepage.hit.edu.cn/jiangjunjun">Junjun Jiang</a>, <a href="http://homepage.hit.edu.cn/xmliu">Xianming Liu</a>, <a href="http://homepage.hit.edu.cn/zhaideming">Deming Zhai</a>
-			</p>
-			<p class="content"> ACM Transactions on Multimedia Computing, Communications and Applications (ToMM), 2025.</p>
-				<p class="margin-small">&nbsp;</p>
-			<p class="content">
-				<strong><a href="https://dl.acm.org/doi/full/10.1145/3748655">Paper</a></strong> |
-					<strong> <a href="https://fast-ldm.github.io">Project</a></strong> |
-					<strong> <a href="https://github.com/wd1511/FAST">Code</a></strong> |
-					<strong><a href="https://huggingface.co/wd1511/fast-ldm">Hugging Face</a></strong> |
-					<strong><a href="./bibs/wang2024hicast.txt">BibTex</a></strong>
-				<br> </p>  
-		</tr></tbody>
-	</table>
-
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong>SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior</strong></p>
-
-			<p class="content"> Zhongrui Yu, <a href="https://scholar.google.com/citations?hl=zh-CN&user=xfnL2IEAAAAJ">Haoran Wang</a>, Jinze Yang, <a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, Jiale Cao, Zhong Ji, <a href="https://scholar.google.com/citations?hl=zh-CN&user=_PfM-AUAAAAJ">Mingming Sun</a>
-			</p>
-			<p class="content"> IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025.</p>
-				<p class="margin-small">&nbsp;</p>
-			<p class="content">
-				<strong><a href="https://openaccess.thecvf.com/content/WACV2025/papers/Yu_SGD_Street_View_Synthesis_with_Gaussian_Splatting_and_Diffusion_Prior_WACV_2025_paper.pdf">Paper</a></strong> |
-					<strong> <a href="https://arxiv.org/abs/2403.20079">arXiv</a></strong> |
-					<strong><a href="./bibs/yu2025sgd.txt">BibTex</a></strong>
-				<br> </p>  
-		</tr></tbody>
-	</table>
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong>Mix-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Global Stochastic Offset</strong></p>
-			<p class="content"> <a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, <a href="http://homepage.hit.edu.cn/zhaideming">Deming Zhai</a>,  <a href="https://hitcszx.github.io">Xiong Zhou</a>, <a href="http://homepage.hit.edu.cn/jiangjunjun">Junjun Jiang</a>, <a href="http://homepage.hit.edu.cn/xmliu">Xianming Liu</a>
-			</p>
-			<p class="content"> ACM Transactions on Multimedia Computing, Communications and Applications (ToMM), 2024.</p>
-			<p class="content">
-				<strong><a href="https://dl.acm.org/doi/abs/10.1145/3672080">Paper</a></strong> |
-				<strong> <a href="https://github.com/wd1511/Mix-DDPM">Code</a></strong> |
-				<strong><a href="./bibs/wang2024mix.txt">BibTex</a></strong>
-				<br> </p>  
-				<p class="margin-small">&nbsp;</p>
-		</tr></tbody>
-	</table>
-
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong>On the Dynamics Under the Unhinged Loss and Beyond</strong></p>
-			<p class="content"> <a href="https://hitcszx.github.io">Xiong Zhou</a>, <a href="http://homepage.hit.edu.cn/xmliu">Xianming Liu</a>, <a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, <a href="http://homepage.hit.edu.cn/zhaideming">Deming Zhai</a>, <a href="http://homepage.hit.edu.cn/jiangjunjun">Junjun Jiang</a>, <a href="https://www.au.tsinghua.edu.cn/info/1111/1524.htm">Xiangyang Ji</a>
-			</p>
-			<p class="content"> Journal of Machine Learning Research (JMLR), 2023.</p>
-			<p class="content">
-				<strong><a href="https://jmlr.org/papers/v24/23-0771.html">Paper</a></strong> |
-					<strong> <a href="https://arxiv.org/abs/2312.07841">arXiv</a></strong> |
-					<strong><a href="./bibs/zhou2023dynamics.txt">BibTex</a></strong>
-				<br> </p>  
-				<p class="margin-small">&nbsp;</p>
-		</tr></tbody>
-	</table>
-
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong>Unsupervised Deep Exemplar Colorization via Pyramid Dual Non-local Attention</strong></p>
-			<p class="content"><a href="http://wd1511.github.io/"><b>Hanzhang Wang</b></a>, <a href="http://homepage.hit.edu.cn/zhaideming">Deming Zhai</a>,  <a href="http://homepage.hit.edu.cn/xmliu">Xianming Liu</a>, <a href="http://homepage.hit.edu.cn/jiangjunjun">Junjun Jiang</a>, <a href="http://homepage.hit.edu.cn/gaowen">Wen Gao</a>
-			</p>
-			<p class="content"> IEEE Transactions on Image Processing (TIP), 2023.</p>
-				<p class="margin-small">&nbsp;</p>
-			<p class="content">
-				<strong><a href="https://ieeexplore.ieee.org/abstract/document/10183846">Paper</a></strong> |
-					<strong> <a href="https://github.com/wd1511/PDNLA-Net">Code</a></strong> |
-					<strong><a href="./bibs/wang2023pdnla.txt">BibTex</a></strong>
-				<br> </p>  
-		</tr></tbody>
-	</table>
-	<div style="display:none">
+  <div style="display:none">
 	
 	<script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
 	<script type="text/javascript">_gos='c3.gostats.com';_goa=390583;
 	_got=4;_goi=1;_goz=0;_god='hits';_gol='web page statistics from GoStats';_GoStatsRun();</script>
 	
 	</div>
-	<br>
-	<br>
-
-	<p id="sect-experiences" class="title-large">Experiences</p>
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong> Senior Engineer </strong> | <i> Oct. 2025 - Now </i></p>
-			<p class="content">  <a href="https://www.huawei.com/en/">Huawei</a> : Shanghai, China</p>
-			<p class="content"> Infrastructure Cloud Services Product Department, ICT BG</p>
-			<p class="content"> Research : AI Infrastructure; Exploratory Research on VLA Models, End-to-End Autonomous Driving, and World Models for Autonomous Driving and Embodied AI</p>
-				<p class="margin-small">&nbsp;</p>
-		</tr></tbody>
-	</table>
-	<br>
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong> Student Researcher </strong> | <i> Sep. 2023 - Nov. 2024 </i></p>
-			<p class="content">  <a href="http://research.baidu.com">Baidu Research</a> : Beijing, China</p>
-			<p class="content"> Research : Diffusion Model, Image-to-Image Translation, MLLM </p>
-				<p class="margin-small">&nbsp;</p>
-		</tr></tbody>
-	</table>
-	<br>
-	<table border="0">
-		<tbody><tr>
-			<td valign="middle" width="900"><p class="content"><strong> Student Researcher </strong> | <i> Sep. 2020 - Dec. 2022 </i></p>
-			<p class="content"> <a href="https://www.pcl.ac.cn">Peng Cheng Laboratory</a> : Shenzhen, Guangdong, China </p>
-			<p class="content"> Research : Image Colorization, Computational Imaging </p>
-				<p class="margin-small">&nbsp;</p>
-		</tr></tbody>
-	</table>
-	<div style="display:none">
+<div style="display:none">
 	
 	<script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
 	<script type="text/javascript">_gos='c3.gostats.com';_goa=390583;
 	_got=4;_goi=1;_goz=0;_god='hits';_gol='web page statistics from GoStats';_GoStatsRun();</script>
 	
 	</div>
-	<br>
-	<br>
-
-	<p id="sect-research" class="title-large">Research</p>
-	<ul>
-		<li><p class="content">Image-to-Image Translation : Image Colorization, Image Inpainting, Style Transfer.</p></li>
-		<li><p class="content">Diffusion Models : Text-to-Image Generation/Editing, Text-to-Video Generation/Editing.</p></li>
-		<li><p class="content">World Models : Autonomous Driving, Embodied AI.</p></li>
-		<li><p class="content">LLMs &amp; MLLMs : Pre-training, Reinforcement Learning, Domain-Specific Tasks.</p></li>
-		<li><p class="content">Autonomous Driving : Vision-Language-Action (VLA) Models, End-to-End Driving.</p></li>
-		<li><p class="content">World Models : Autonomous Driving, Embodied AI.</p></li>
-		<li><p class="content">AI Infra : Operator Development, Model Adaptation.</p></li>
-	</ul>
-	<br>
-	<br>
-
-	<!-- <p id="service" class="title-large">Service</p>
-	<ul>
-		<li><p class="content">       </p></li>
-	</ul>
-	<br>
-	<br> -->
-
-	<p id="sect-awards" class="title-large">Awards</p>
-	<ul>
-		<li><p class="content">2014 The first prize in the 31st Chinese Physics Olympiad (CPhO).</p></li>
-		<li><p class="content">2018 The third prize in the 11th National College Student Information Security Contest. </p></li>
-		<li><p class="content">2019 The outstanding undergraduate graduates of Harbin Institute of Technology. </p></li>
-		<li><p class="content">2023 Outstanding Intern at Baidu Research.</p></li>
-	</ul>
-
-	<!-- <p id="sect-awards" class="title-large">Awards</p>
-	<tr><td><a href="imgs/mycat.jpg"><img src="imgs/mycat.jpg"  height="400"></td></tr> -->
-
-
-		<div align="center" style="margin:auto;padding-top:10px">
-            <div style="width:15%">
-                <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=h87tkcVTteUC8QVeZ_wn1pK4-aVDcUQQqwJEgnZyQBI"></script>
-            </div>
-        </div>
-	</body></html>
-	
+</body>
+</html>
