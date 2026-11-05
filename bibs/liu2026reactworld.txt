@@ -1,0 +1,10 @@
+@article{liu2026reactworld,
+  title={{ReactWorld}: Structuring Interaction Responses for Embodied Video Generation},
+  author={Liu, Hanwei and Zhang, Huijia and Wang, Hanzhang and Liu, Guangyu and Zhan, Hanbei and Hu, Linjie and Xiao, Bin and Zhou, Xuan and Zhang, Dong},
+  journal={arXiv preprint arXiv:2611.06120},
+  year={2026},
+  eprint={2611.06120},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2611.06120}
+}
