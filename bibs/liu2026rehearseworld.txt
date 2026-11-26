@@ -1,0 +1,10 @@
+@article{liu2026rehearseworld,
+  title={Rehearse in 3D, Render in 2D: Physically Consistent and Editable Robot World Models},
+  author={Liu, Guangyu and Wang, Hanzhang and Zhang, Huijia and Zhan, Hanbei and Hu, Linjie and Xiao, Bin and Zhou, Xuan and Zhang, Dong and Liu, Hanwei},
+  journal={arXiv preprint arXiv:2611.34288},
+  year={2026},
+  eprint={2611.34288},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2611.34288}
+}
